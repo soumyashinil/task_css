@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            
+        }
+        nav{
+            display: flex;
+            background-color: white;
+            justify-content: right;
+            flex-direction: row;
+            
+           
+        }
+        nav li{
+            list-style-type: none;
+            padding: 10px;
+           
+            font-weight: bold;
+        }
+        nav a{
+            text-decoration: none;
+            
+        }
+        ul{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;        
+       }
+       nav a:hover{
+          color: crimson;
+        }
+
+        .menu{
+            color: grey;
+            text-shadow: 2px 2px 5px grey;
+        }
+        .active,.menu:hover{
+            color:black;
+        }
+        #head{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+       .main_txt{
+        position: absolute;
+        top: 250px;
+        font-size: 50px;
+        color: white;
+       }
+       .sub_txt{
+        position: absolute;
+        top: 380px;
+        font-size: 40px;
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+    <section id="head">
+        <section>
+        <img src="C:\Users\hp\Desktop\test.png" alt="" width="150px" height="80px">
+        </section>
+        <section >
+        <nav>
+
+            <ul>
+                <li><a href="#" class="menu active" >HOME</a></li>
+                <li><a href="#" class="menu">ABOUT</a></li>
+                <li> <a href="#" class="menu">SERVICES</a></li>
+                <li> <a href="#" class="menu">MY WORK</a></li>
+                <li> <a href="#" class="menu">CONTACT</a></li>
+               
+            </ul>
+        </nav>
+    </section>
+    </section>
+   
+    <section id="container">
+
+        <img src="C:\Users\hp\Downloads\apj.jpg" alt="" width="925px" height="500px">
+    <h1 class="main_txt">Hello I am Dr. APJ </h1>
+    <h3 class="sub_txt">I am known as Missile Man of India</h3>
+    
+
+   
+    </section>
+</body>
+</html>
